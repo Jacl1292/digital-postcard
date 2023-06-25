@@ -1,0 +1,70 @@
+body{
+background-color: black;
+}
+.Postcard{
+background-color: white;
+margin: auto;
+height: 350px;
+width: 400px;
+}
+/*encabezado*/
+.head{
+    
+    height: 100px;
+}
+.name{
+    float: left;
+    width: 200px;;
+    height: 100px;
+
+}
+.name h1{
+    padding-left: 10px;
+    font-style: italic;
+}
+.imagen{
+    float: right;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+.imagen img{
+    height: 100px;
+    width: 100px;
+    
+}
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+/*body*/
+.body{
+    height: 200px;
+}
+.text{
+    float: left;
+    height: 200px;
+    width: 190px;
+    padding-left: 10px;
+}
+.input{
+    float: right;
+    height: 180px;
+    width: 200px;
+    padding-top: 20px;
+}
+.input input{
+    margin-left: 15px;
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/*+++++++++++++++++++++++++++++++++*/
+
+.button{
+height: 50px;
+width: 150px;
+margin-left: 125px;
+}
+.button button{
+    font-style: italic;
+    background-color: rgb(135, 135, 135);
+}
